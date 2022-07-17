@@ -1,0 +1,728 @@
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.zuizikoukai{
+  text-align: center;
+  margin: 40px;
+}
+
+.zuizikoukai p{
+  font-size: 30px;
+  margin: 40px;
+}
+
+top-title{
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  animation-duration: 1.2s;
+  animation-delay:2.3s;
+  animation-fill-mode: forwards;
+  animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.top-op,.top-op2{
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+  width: 100%;
+  height: 100vh;
+}
+.top-op{
+  z-index: 99;
+  background: #CC1B3B;
+  animation-duration: 1.2s;
+  animation-delay:4.5s;
+  animation-fill-mode: forwards;
+  animation-name: top-op;
+}
+.top-op2{
+  z-index: 100;
+  background: #C9C3BE;
+  animation-duration: 0.7s;
+  animation-delay: 1.1s;
+  animation-fill-mode: forwards;
+  animation-name: top-op2;
+}
+
+@keyframes top-op{
+0% {
+  width: 100%;
+  left:0;
+}
+50% {
+  width: 100%;
+}
+100% {
+  width: 0%;
+  left: 100%;
+}
+}
+@keyframes top-op2{
+0% {
+  width: 100%;
+  left:0;
+}
+50% {
+  width: 100%;
+}
+100% {
+  width: 0%;
+  left: 100%;
+}
+}
+
+
+
+.background {
+
+  margin: 0vh;
+  z-index: -10;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: calc(var(--vh, 1vh) * 100);
+  background-image: url(../images/background2.png);
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+#background {
+  margin: 0vh;
+  z-index: -10;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  background-size: cover;
+  height: calc(var(--vh, 1vh) * 100);
+  background: #C9C3BE;
+  /* background-image: url(../images/background2.png); */
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+#background-front {
+  margin: 0vh;
+  z-index: -10;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  background-size: cover;
+  height: calc(var(--vh, 1vh) * 100);
+}
+
+#background iframe {
+  /* width: 100%;
+  height: 100%; */
+  z-index: -1;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 56.25vw;
+  left: 50%;
+  min-height: 100%;
+  min-width: 100%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 177.77777778vh;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-width: 2px;
+  border-style: inset;
+  border-color: initial;
+  border-image: initial;
+}
+
+header{
+  height: 40px;
+  top:-5.333vw;
+	background-color: white;
+	width: 100vw;
+	position: fixed;
+	z-index: 2;
+ 	transition: .3s;
+}
+
+header *{
+	/* background-color: black; */
+	margin: 0vw;
+}
+
+#title{
+	background-color: white;
+	width: 100vw;
+	height: 60px;
+	position: relative;
+  display: none;
+}
+
+#title img{
+	background-color: white;
+	margin: auto;
+	width: 89vw;
+  max-width: 400px;
+	display: block;
+	margin: auto;
+	position: absolute;
+	right: 0;
+	left: 0;
+	bottom: 2.7vw;
+}
+
+#menu{
+	background-color: white;
+	padding: 0vw;
+}
+
+ul{
+  justify-content: space-between;
+}
+
+li {
+  list-style-type: none;
+  background-color: #fff;
+
+  flex-grow: 1;
+  text-align: center;
+}
+li + li {
+  border-left: 1px solid #CC1B3B;
+}
+
+ul .header-button{
+  width:calc(33vw);
+  font-size: 17px;
+	color: #CC1B3B;
+	text-align: center;
+	list-style: none;
+	height: 30px;
+	float:left;			/*リスト項目を横に並べる*/
+	display:inline;			/*リスト項目をインライン表示にする*/
+	list-style-type:none;		/*リストマーカー無しにする*/
+  margin:4px auto;
+  padding: 0;
+}
+
+ul .header-button img{
+	background-color: white;
+	height: 13.333vw;
+}
+
+/* #header-top{
+	width: 14.6vw;
+}
+
+#header-about{
+	width: 14.6vw;
+}
+
+#header-exhibitors{
+	width: 17vw;
+}
+
+#header-access{
+	width: 14.6vw;
+}
+
+#header-event{
+	width: 14.6vw;
+} */
+
+ul .header-button:hover{
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+body{
+	margin: 0vw;
+  /*遠藤↓*/
+  font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+	/* font-family: "游ゴシック体", YuGothic, "Noto Sans JP", sans-serif; */
+	word-break : break-all;
+}
+
+.element{
+	padding: 2vw 2.667vw;
+}
+
+
+/*トップ*/
+.top-wrapper{
+	top: 0px;
+  width: 100vw;
+	height: 100vh;
+}
+
+#researve-button{
+	position: fixed;
+	right: 2.7%;
+	bottom: 10%;
+	z-index: 99;
+}
+
+#key-visual-wrapper{
+	width: 100vw;
+	height: 100vh;
+	/* position: relative; */
+}
+
+#key-visual-bg{
+  width: 100vw;
+	/* height: 100vh; */
+	top: 60px;
+	/* display: block; */
+   object-fit: cover;
+   object-position: 0 0px;
+}
+
+.bg-pc {
+  width: 100vw;
+	height: 100vh;
+	top: 0vw;
+	display: none;
+}
+
+.bg-smartphone {
+  width: 100vw;
+	height: 100vh;
+	top: 0vw;
+	display: block;
+}
+
+#key-visual-info{
+  width: calc(100vw - 40px);
+  margin: 20px 20px;
+  bottom:20px;
+
+  position: absolute;
+  /* display: block;
+  z-index: 100; */
+}
+
+#key-visua-title{
+  /* width: 100%;
+  left: 0px;
+  top:0px;
+  position: absolute; */
+
+  width: calc(100vw - 40px);
+  margin: 20px 20px;
+  top:10px;
+
+  position: absolute;
+
+  /* display: block;
+  z-index: 10000; */
+}
+
+#key-visual-Date{
+  display: none;
+  width: 200px;
+  bottom: 20px;
+  right:0px;
+  position: absolute;
+  /* display: block;
+  z-index: 100; */
+}
+
+#key-visual-smartphoneText{
+  width: 100vw;
+  bottom: 5px;
+  left:0px;
+  position: absolute;
+  /* display: block;
+  z-index: 10000; */
+}
+
+
+.section-title{
+  color: black;
+  font-size: 30px;
+  /* margin: 10px 90px; */
+  margin: 5.333vw 4.667vw;
+}
+
+.section-title-min{
+  color: black;
+  font-size: 20px;
+  /* margin: 10px 7px; */
+  margin: 4.333vw 4.667vw;
+}
+
+
+
+/*ステートメント*/
+.about-wrapper{
+	/* background:white; */
+}
+
+.info-wrapper{
+	/* background:white; */
+}
+
+.info-base{
+ background: rgba(255, 255, 255, 0.9);
+  box-shadow: 10px 10px 100px rgba(20, 19, 28, 0.2);
+  /* backdrop-filter: blur(30px); */
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 10px;
+  padding: 10px 10px;
+  margin: 50px 0px
+}
+
+.element #statement{
+	color: black;
+	font-size: 14px;
+	letter-spacing: 0.15em;
+	line-height: 1.7em;
+	text-align: justify;
+	font-feature-settings: "palt";
+	margin: 5.333vw 4.667vw;
+}
+
+.element #sign{
+	color: black;
+	font-size: 12px;
+	letter-spacing: 0.15em;
+	line-height: 1.7em;
+	text-align: right;
+	font-feature-settings: "palt";
+	margin: 5.333vw 4.667vw;
+}
+
+.element #info-in-about{
+	color: black;
+	font-size: 15px;
+	font-weight: normal;
+	letter-spacing: 0.15em;
+	line-height: 1.7em;
+	text-align: justify;
+	font-feature-settings: "palt";
+	/*margin: 5.333vw 2.667vw;*/
+  /*遠藤↓*/
+  margin: 5.333vw 4.667vw ;
+}
+
+
+.element #info-in-about .small{
+	color: black;
+	font-size: 12px;
+	font-weight:normal;
+	letter-spacing: 0.15em;
+	line-height: 1.8em;
+	text-align: justify;
+	font-feature-settings: "palt";
+	margin: 10px 0px;
+/* pc / shadow1 */
+}
+
+.element #info-in-about .small-indent{
+	color: black;
+	font-size: 12px;
+	font-weight:normal;
+	letter-spacing: 0.15em;
+	line-height: 1.8em;
+	text-align: justify;
+	font-feature-settings: "palt";
+	margin: 10px 0px;
+  text-indent: -1em;
+  padding-left: 1em;
+}
+
+.element #info-in-about hr{
+  /*遠藤↓*/
+	height: 1px;
+  background-color: black;
+  border: none;
+}
+
+.element #info-in-about p{
+	margin: 1.667vw 0vw;
+}
+
+/* .element .section-title{
+	height: 4.4vw;
+	margin: 50px 0vw 2.667vw 2.667vw;
+} */
+
+.reservation-wrap{
+  text-align: center;
+}
+
+.reservation {
+  margin: 30px auto;
+  font-family: YuMincho, "游明朝", "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  font-size: 15pt;
+  color: white;
+  background: #CC1B3B;
+  padding: 20px 30px;
+  display: inline-block;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+
+  box-shadow: 5px 10px 40px rgba(20, 19, 28, 0.35);
+backdrop-filter: blur(30px);
+}
+
+/* アコーディオンメニュー全体のサイズ・位置 */
+.ac {
+  width: 100%;
+  /* max-width: 600px; */
+  margin: 20px auto;
+  color: black;
+}
+
+.ac p{
+  padding: 10px;
+}
+
+/* クリック領域 */
+.ac-parent {
+  /* border-radius: 5px; */
+	position: relative;  /* 追加 */
+	/* height: 50px; */
+	border-bottom: 1px solid #fff;
+	background-color: white;
+	color: #fff;
+	/* text-align: center; */
+	/* line-height: 50px; */
+	cursor: pointer;
+}
+
+.ac-parent {
+  color: black;
+}
+
+.kansen-taisaku{
+  width:85%;
+}
+
+
+#map iframe{
+  width:100%;
+  height:200px;
+  border-radius: 20px;
+  box-shadow: 5px 10px 40px rgba(20, 19, 28, 0.35);
+  backdrop-filter: blur(30px);
+  margin: 20px auto;
+}
+
+
+/* 擬似要素で下三角形を作成 */
+.ac-parent:after {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	top: 45%;
+	right: 30px;
+	width: 10px;
+	height: 10px;
+	border-right: 3px solid black;
+	border-bottom: 3px solid black;
+	transform: translateY(-50%) rotate(45deg);
+	transition: .3s;
+}
+
+
+
+
+/*Access*/
+.access-wrapper{
+	/* background: #FAFAFA; */
+	padding-bottom: 18.667vw;
+}
+
+.access-wrapper #map{
+	margin: 2.667vw;
+	letter-spacing: 0.1em;
+	line-height: 1.5;
+}
+
+.access-wrapper #map iframe{
+	margin: 2.667vw 0vw;
+	width: 100%;
+	height: 60vw;
+}
+
+.access-wrapper #map #place-name{
+	font-size: 3.75vw;
+	font-weight: bold;
+	margin: 2.667vw 0vw;
+}
+
+.access-wrapper #map #place-address{
+	font-size: 3.45vw;
+	margin: 1.333vw 0vw;
+}
+
+.access-wrapper #map #place-description{
+	font-size: 3.45vw;
+	margin: 1.333vw 0vw;
+}
+
+
+
+/* Artists */
+.contents-column{
+	margin:0;
+}
+.contents-column h3{
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.artists-list{
+	display: flex;
+	flex-wrap: wrap;
+
+	line-height: 1.2rem;
+}
+.artist-list-base{
+	width: 50%;
+	display: flex;
+	margin-bottom: 1.5rem;
+}
+.artist-list-thumbnail{
+	width: 92%;
+}
+.artist-list-thumbnail img{
+	width: 100%;
+	border-radius: 0.5rem;
+}
+.artist-list-info{
+	width: 90%;
+}
+
+.modal-background{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(20,19,28,0.6);
+	z-index: 100;
+	position: fixed;
+	top: 0;
+}
+.modal-base{
+	margin: 10% 3%;
+	max-height: 80%;
+	overflow-y: scroll;
+	background-color: #f5f5f7;
+	border-radius: 10px;
+}
+.modal-contents-wrapper{
+	margin: 3%;
+}
+.modal-base::-webkit-scrollbar {
+  width           : 0rem;
+  background-color: var(--bgcolor);
+}
+
+.modal-base::-webkit-scrollbar-thumb {
+  background   : var(--titleblack);
+  border-radius: 1rem;
+}
+.modal-top{
+	height:2rem;
+}
+.modal-close{
+	width: auto;
+	height: 100%;
+	float: right;
+}
+.modal-close img{
+	height: 100%;
+}
+.modal-column-container{
+	display: flex;
+	flex-wrap: wrap;
+}
+.modal-column{
+	margin-top: 2rem;
+	width: 100%;
+}
+.modal-column-works{
+	/* margin-right: 1.5rem; */
+}
+.modal-work{
+	width: 100%;
+	margin-bottom: 2rem;
+}
+.modal-work img{
+	width: 100%;
+}
+
+
+
+/*フッター*/
+footer{
+
+	background: #CC1B3B;
+
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
+
+  	display:-webkit-box;
+  	display:-ms-flexbox;
+  	display:flex;
+   	flex-flow: column;
+}
+
+footer #footer-wrapper{
+	margin: 2.667vw;
+}
+
+footer div #icons{
+	margin: 2.667vw;
+}
+
+footer div #icons img{
+  margin-top: 20px;
+	margin-right: 1.333vw;
+	width: 8vw;
+}
+
+footer div #contact{
+  margin: 2.667vw;
+  color: white;
+	font-size: 2.45vw;
+  letter-spacing: 0.15em;
+}
+
+footer div #contact_title{
+  font-weight:bold;
+}
+
+footer div #contact_mail{
+	font-size: 2.25vw;
+  margin-top:0px;
+  margin-bottom: 20px;
+}
+
+footer div #credit{
+	margin: 0px;
+	color: white;
+	font-size: 2.25vw;
+	letter-spacing: 0.15em;
+  margin-bottom:30px;
+}
