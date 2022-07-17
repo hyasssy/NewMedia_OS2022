@@ -12,8 +12,8 @@ const _m2data = [
             work1_caption: "hogehoge",
             work2_img: "./images/artistsinfo/m2/imamiya/2.jpg",
             work2_caption: "hogehoge",
-            work3_img: "./images/artistsinfo/m2/imamiya/nagata.jpg",
-            work3_caption: "hogehoge",
+            work3_img: "",
+            work3_caption: "",
             info: `hogehogheoge
             受賞歴
             2019 aaaa

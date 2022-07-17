@@ -77,11 +77,15 @@ function showartistmodal(artistdata) {
         caption.textContent = text;
     }
     setwork(1);
-    setwork(2);
-    setwork(3);
+    if (artistdata.work2_img !== "") {
+        setwork(2);
+    }
+    if (artistdata.work3_img !== "") {
+        setwork(3);
+    }
 
     var artistinfo = clone.querySelector(".modal-column-info");
-    artistinfo.textContent = artistdata.info;
+    artistinfo.innerHTML = ht_str(artistdata.info);
 
     targetelement.appendChild(clone);
 
@@ -90,4 +94,17 @@ function showartistmodal(artistdata) {
 function closeartistmodal(){
     var targetelement = document.querySelector("#artist-modal");
     targetelement.innerHTML = "";
+}
+
+//改行やスペースをコードに落とし込んだstringに変換する。
+function ht_str(str) {
+    if (str == null) return '';
+    str = str.toString();
+    str = str.replace(/&/g, '&amp;');
+    str = str.replace(/</g, '&lt;');
+    str = str.replace(/>/g, '&gt;');
+    // str = str.replace( / /g,'&nbsp;' );
+    // str = str.replace( /\t/g,'&nbsp;&nbsp;&nbsp;&nbsp;' ); // Tabをスペース4つに..
+    str = str.replace(/\r?\n/g, "<br />\n");
+    return str;
 }
