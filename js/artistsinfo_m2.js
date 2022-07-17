@@ -14,7 +14,8 @@ const _m2data = [
             work2_caption: "hogehoge",
             work3_img: "",
             work3_caption: "",
-            info: `1996年東京都出身。共感覚の共有をテーマに、視覚と聴覚相互の情報の変換を可能とする楽器と記譜法(ノーテーション)を研究、絵画と様々なメディアによる制作を行っている。
+            info: `プロフィール
+1996年東京都出身。共感覚の共有をテーマに、視覚と聴覚相互の情報の変換を可能とする楽器と記譜法(ノーテーション)を研究、絵画と様々なメディアによる制作を行っている。
 東京藝術大学美術学部先端芸術表現科卒業。
 
 2021「Dimentions」(Whitestone Gallery新館)
@@ -50,7 +51,8 @@ const _m2data = [
             work2_caption: "hogehoge",
             work3_img: "",
             work3_caption: "",
-            info: `hogehogheoge`,
+            info: `プロフィール
+hogehogheoge`,
             links: [
                 {
                     text: "Portfolio",
@@ -77,7 +79,8 @@ const _m2data = [
             work2_caption: "hogehoge",
             work3_img: "./images/artistsinfo/m2/sato/3.jpg",
             work3_caption: "hogehoge",
-            info: `hogehogheoge`,
+            info: `プロフィール
+hogehogheoge`,
             links: [
                 {
                     text: "Portfolio",
@@ -104,7 +107,8 @@ const _m2data = [
             work2_caption: "hogehoge",
             work3_img: "./images/artistsinfo/m2/tanaka/3.jpg",
             work3_caption: "hogehoge",
-            info: `hogehogheoge`,
+            info: `プロフィール
+hogehogheoge`,
             links: [
                 {
                     text: "Portfolio",
@@ -131,17 +135,10 @@ const _m2data = [
             work2_caption: "hogehoge",
             work3_img: "./images/artistsinfo/m2/hayashi/3.jpg",
             work3_caption: "hogehoge",
-            info: `情報と身体が一体化する未来のプロダクトのプロトタイピングを行なっている。
+            info: `プロフィール
+情報と身体が一体化する未来のプロダクトのプロトタイピングを行なっている。
 在学中にスタートアップでのPdMを経験。アート・文化思想的なバックグラウンドと、先端技術を活用したプロダクトの社会実装の経験から、多角的な未来の思考を試みる。
 藝大油画科卒、WOGO,inc UXデザイナー、東大技術補佐員
-
-展示歴
-2021 「やまなしメディア藝術アワード」（山梨）
-2021 「IJIERO-HOU」（東京）
-2020 「東京藝術大学卒業制作展示」（東京）
-2019 「禁足地」（東京）
-2019 「NI/O」（東京）
-2018 「LOCI」（東京）など
 
 活動歴
 2021 東大相澤研究室のMovieMapプロジェクトに技術補佐員として参加
@@ -152,6 +149,14 @@ const _m2data = [
 2019 石橋財団奨学生 採択（ユーラシア大陸横断プロジェクト）
 2019 Vtuberアシスタントを経験
 2017 早稲田大学建築科学生と共同インスタレーション制作、発表
+
+展示歴
+2021 「やまなしメディア藝術アワード 入選」（山梨）
+2021 「IJIERO-HOU」（東京）
+2020 「東京藝術大学卒業制作展示」（東京）
+2019 「禁足地」（東京）
+2019 「NI/O」（東京）
+2018 「LOCI」（東京）など
 `,
             links: [
                 {

@@ -15,10 +15,20 @@ const _m1data = [
             info: `プロフィール
             武蔵野美術大学造形学部映像学科卒業。
             触る事で対象についての知見を得、その記録の集積を元に制作を行う。
-            
+
             展示歴
             2022「令和三年度 武蔵野美術大学 卒業・修了制作展」（武蔵野美術大学）
-            `
+            `,
+            links: [
+                {
+                    text: "Portfolio",
+                    url: "https://hyasssy.tokyo/"
+                },
+                {
+                    text: "Twitter: @hyasssy",
+                    url: "https://twitter.com/hyasssy"
+                }
+            ]
         }
     },
     {
@@ -38,7 +48,7 @@ const _m1data = [
             1995年宮城県石巻市生まれ。
             他者との論理的な共通認識としての作用を期待し、言語にアイデアを得て制作を行う。
             多摩美術大学美術学部グラフィックデザイン学科卒業。
-            
+
             展示歴
             2021「多摩美術大学グラフィックデザイン学科卒業制作展2021」（恵比寿ガーデンプレイス）
             2020 「多摩美術大学美術学部卒業制作展・大学院修了制作展B」（多摩美術大学）
@@ -49,7 +59,17 @@ const _m1data = [
             受賞歴
             2017「東京TDC賞2017」入選
             2016「JAGDA学生グランプリ」入選
-            `
+            `,
+            links: [
+                {
+                    text: "Portfolio",
+                    url: "https://hyasssy.tokyo/"
+                },
+                {
+                    text: "Twitter: @hyasssy",
+                    url: "https://twitter.com/hyasssy"
+                }
+            ]
         }
     },
     {
@@ -69,10 +89,20 @@ const _m1data = [
             1999年東京都生まれ。
             2022年東京藝術大学音楽学部音楽環境創造科卒業。
             聴覚を主軸とした知覚についての思索や制作を行う。
-            
+
             展示歴
             2022「東京藝術大学音楽環境創造科卒業制作・論文発表会 2022」（東京藝術大学千住キャンパス）
-            `
+            `,
+            links: [
+                {
+                    text: "Portfolio",
+                    url: "https://hyasssy.tokyo/"
+                },
+                {
+                    text: "Twitter: @hyasssy",
+                    url: "https://twitter.com/hyasssy"
+                }
+            ]
         }
     },
     {
@@ -91,7 +121,7 @@ const _m1data = [
             info: `プロフィール
             バーチャルリアリティを中心に用いて制作をしてきた。
             病理や宗教などある人々にとって非現実的(バーチャル/フィクショナル)なイメージを扱いながら、今私たちがいる時空間とは別にありえた世界について考えている。
-            
+
             展示歴
             –個人
             2021「個展-クロールする蛹のためのレクチャー」 （TIME MACHINE）
@@ -100,7 +130,17 @@ const _m1data = [
             2021「IAMAS_Open_house 2021」（オンライン）
             2021「第9回 VROD」（FinGATE KAYABA）
             2021「S.C.L World #01」（渋谷クオーツギャラリー）
-            `
+            `,
+            links: [
+                {
+                    text: "Portfolio",
+                    url: "https://hyasssy.tokyo/"
+                },
+                {
+                    text: "Twitter: @hyasssy",
+                    url: "https://twitter.com/hyasssy"
+                }
+            ]
         }
     },
     {
@@ -116,11 +156,11 @@ const _m1data = [
             work2_caption: "《Nastagio degli Onesti》（2022）",
             work3_img: "./images/artistsinfo/m1/eguchi/3.jpg",
             work3_caption: "《PERFECT CRIME》（2021）",
-            info: `プロフィール            
+            info: `プロフィール
             1998年生まれ。
             2022年、多摩美術大学絵画学科油画専攻卒業。
             美術館をバックグラウンドに持つ意識から美術の特権性及び、公益性についての研究、展示を行う。
-            
+
             展示歴
             2022「ストーンテープ~見たら呪われる展示~」（PARA / 住所非公開）
             2021「Navigated Locomotion」（White Gallery / 東京・千駄木）
@@ -129,7 +169,17 @@ const _m1data = [
 
             活動歴
             2020「ウォーターフォールを追いかけて」映像制作（早稲田小劇場どらま館招聘公演・オンライン上演）
-            `
+            `,
+            links: [
+                {
+                    text: "Portfolio",
+                    url: "https://hyasssy.tokyo/"
+                },
+                {
+                    text: "Twitter: @hyasssy",
+                    url: "https://twitter.com/hyasssy"
+                }
+            ]
         }
     },
     {
@@ -145,7 +195,7 @@ const _m1data = [
             work2_caption: "《食い入るように》（2021）",
             work3_img: "./images/artistsinfo/m1/oda/3.jpg",
             work3_caption: "《丁寧な錯覚》(2020)",
-            info: `プロフィール            
+            info: `プロフィール
             1997年神奈川県生まれ。
             2022年金沢美術工芸大学美術工芸学部美術科彫刻専攻卒業。
             作品を多視点から鑑賞する際の身体感覚を通して、見ているものの曖昧さについて考え、制作を行う。
@@ -165,7 +215,17 @@ const _m1data = [
 
             助成
             2021　三菱商事アート・ゲート・プログラム
-            `
+            `,
+            links: [
+                {
+                    text: "Portfolio",
+                    url: "https://hyasssy.tokyo/"
+                },
+                {
+                    text: "Twitter: @hyasssy",
+                    url: "https://twitter.com/hyasssy"
+                }
+            ]
         }
     },
     {
@@ -181,7 +241,7 @@ const _m1data = [
             work2_caption: "《ムシ図鑑》（2022）",
             work3_img: "./images/artistsinfo/m1/kurachi/3.jpg",
             work3_caption: "《チョコチップクッキー＆ミルク》（2022）",
-            info: `プロフィール            
+            info: `プロフィール
             1997年愛知県生まれ。
             2020年京都造形芸術大学（現 京都芸術大学）情報デザイン学科卒業。
             日常生活のなかにある「可笑しさ」を帯びた存在や状況に焦点を当て、映像作品を中心に制作を行う。
@@ -193,7 +253,17 @@ const _m1data = [
 
             受賞歴
             2020「2019年度京都造形芸術大学作品展」優秀賞
-            `
+            `,
+            links: [
+                {
+                    text: "Portfolio",
+                    url: "https://hyasssy.tokyo/"
+                },
+                {
+                    text: "Twitter: @hyasssy",
+                    url: "https://twitter.com/hyasssy"
+                }
+            ]
         }
     },
     {
@@ -209,14 +279,24 @@ const _m1data = [
             work2_caption: "《空ける、ユーリカ》（2022）",
             work3_img: "./images/artistsinfo/m1/korenaga/3.jpg",
             work3_caption: "《Look out of the window》（2020）",
-            info: `プロフィール            
+            info: `プロフィール
             2000年大分県生まれ。
             東京造形大学造形学部美術学科絵画専攻卒業。
             インスタレーション、映像を中心に制作。
 
             展示歴
             2022「ZOKEI展」（東京造形大学）
-            `
+            `,
+            links: [
+                {
+                    text: "Portfolio",
+                    url: "https://hyasssy.tokyo/"
+                },
+                {
+                    text: "Twitter: @hyasssy",
+                    url: "https://twitter.com/hyasssy"
+                }
+            ]
         }
     },
     {
@@ -232,10 +312,20 @@ const _m1data = [
             work2_caption: "《Somewhere》（2021）",
             //work3_img: "./images/artistsinfo/m1/saito/3.jpg",
             //work3_caption: "hogehoge",
-            info:`プロフィール            
+            info:`プロフィール
             2000年生まれ。
             日本大学芸術学部写真学科卒業。
-            `
+            `,
+            links: [
+                {
+                    text: "Portfolio",
+                    url: "https://hyasssy.tokyo/"
+                },
+                {
+                    text: "Twitter: @hyasssy",
+                    url: "https://twitter.com/hyasssy"
+                }
+            ]
         }
     },
     {
@@ -255,7 +345,7 @@ const _m1data = [
             1999年生まれ。
             多摩美術大学美術学部絵画学科油画専攻2022年卒業。
             近年は『ペラい場所性』についてをテーマにインスタレーションや映像などを中心に制作をしている。
-            またVJ・映像作家としても活動している。          
+            またVJ・映像作家としても活動している。
 
             展示歴
             2022「多摩美術大学 卒業制作展・大学院修了制作展」
@@ -266,7 +356,17 @@ const _m1data = [
 
             受賞歴
             2022 「多摩美術大学 卒業制作展」優秀賞
-            `
+            `,
+            links: [
+                {
+                    text: "Portfolio",
+                    url: "https://hyasssy.tokyo/"
+                },
+                {
+                    text: "Twitter: @hyasssy",
+                    url: "https://twitter.com/hyasssy"
+                }
+            ]
         }
     },
     {
@@ -285,17 +385,27 @@ const _m1data = [
             info: `プロフィール
             タイ、バンコク出身。
             チュラーロンコーン大学コミュニケーションデザイン学科卒業。
-            
+
             展示歴
             -個人
             2019 「CommDe Creative Walk 2019 'Commbo'」(卒業・修了制作展)
             -グループ・企画
             2017 「SILENT SPEAKER」(RATCHADAMNONE CONTENPORARY ART CENTRE (RCAC))
             2017 「INTERNATIONAL COLLABORATION OF CHULALONGKORN UNIVERSITY AND SHIH CHIEN UNIVERSITY TAIPEI」
-            
+
             受賞歴
             2018「ART GAMES – AN INTERNATIONAL GAME JAM NETWORK 」(Top 3 Finalist)
-            `
+            `,
+            links: [
+                {
+                    text: "Portfolio",
+                    url: "https://hyasssy.tokyo/"
+                },
+                {
+                    text: "Twitter: @hyasssy",
+                    url: "https://twitter.com/hyasssy"
+                }
+            ]
         }
     },
     {
@@ -327,7 +437,7 @@ const _m1data = [
             2021 国土交通省Project Plateau 民間サービス実証調査参画
             2020 ノイタミナ系列『富豪刑事』ARデザインアドバイザー参画
             2018 MESON, inc にディレクターとして参画し企業とのXR技術を活用した研究を行う
-          
+
             受賞歴
             2021年 「SIGGRAPH ASIA2021 XR」論文掲載
             2019年 East Gateハッカソン優勝
@@ -335,7 +445,17 @@ const _m1data = [
             刊行物
             2021 論文共著『GIBSON: AR/VR synchronized city walking system』（SIGGRAPH ASIA 2021 XR）
             2021 プロダクト掲載『WIRED JAPAN VOL.41』
-            `
+            `,
+            links: [
+                {
+                    text: "Portfolio",
+                    url: "https://hyasssy.tokyo/"
+                },
+                {
+                    text: "Twitter: @hyasssy",
+                    url: "https://twitter.com/hyasssy"
+                }
+            ]
         }
     },
 
