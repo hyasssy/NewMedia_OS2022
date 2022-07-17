@@ -25,7 +25,7 @@ function setthumbnails(targetid, artistdata) {
         $(target).on('click', function () {
             var data = getartistdatafromid(artistdata, this.id);
             showartistmodal(data);
-            console.log(data);
+            // console.log(data);
             return false;
         });
     }
@@ -84,11 +84,29 @@ function showartistmodal(artistdata) {
         setwork(3);
     }
 
-    var artistinfo = clone.querySelector(".modal-column-info");
+    var artistinfo = clone.querySelector(".modal-info-main");
     artistinfo.innerHTML = ht_str(artistdata.info);
+    var links = clone.querySelector(".modal-info-link-list");
+    // console.log(artistdata.links);
+    for (var i = 0; i < artistdata.links.length; i++){
+        var div = document.createElement("button");
+        var url = artistdata.links[i].url;
+        $(div).on('click', function () {
+            window.open(url, '_blank');
+            return false;
+        });
+        div.textContent = artistdata.links[i].text;
+        var br = document.createElement("br");
+        links.appendChild(div);
+        links.appendChild(br);
+
+    }
 
     targetelement.appendChild(clone);
 
+}
+function hoge() {
+    console.log("押してるよ");
 }
 
 function closeartistmodal(){

@@ -36,16 +36,11 @@
 
   <script src="./js/jquery.min.js"></script>
   <!--JS-->
-  <script type="text/javascript" src="./js/main.js"></script>
-  <script type="text/javascript" src="./js/modalMaker.js"></script>
+  <!-- <script type="text/javascript" src="./js/main.js"></script> -->
   <script type="text/javascript" src="./js/artistsinfo_m1.js"></script>
   <script type="text/javascript" src="./js/artistsinfo_m2.js"></script>
   <script type="text/javascript" src="./js/setArtistsModal.js"></script>
-  <script src="https://player.vimeo.com/api/player.js"></script>
-
-  <script type="text/javascript">
-
-  </script>
+  <!-- <script src="https://player.vimeo.com/api/player.js"></script> -->
 
 </head>
 
@@ -87,7 +82,7 @@
   </div>
 
   <div id="reserve-button">
-    <button type="button" onclick="location.href='https://openstudio2022.peatix.com/'" class="reservation">予約する
+    <button type="button" onclick="window.open('https://openstudio2022.peatix.com/','_blank')" class="reservation">予約する
     </button>
   </div>
 
@@ -150,7 +145,7 @@
         </p>
 
         <div class="reservation-wrap">
-          <button type="button" onclick="location.href='https://openstudio2022.peatix.com/'" class="reservation">予約する (外部サイト)
+          <button type="button" onclick="window.open('https://openstudio2022.peatix.com/','_blank')" class="reservation">予約する (外部サイト)
           </button>
         </div>
 
@@ -286,6 +281,13 @@
         </div>
         <div class="modal-column-container">
           <div class="modal-column modal-column-info">
+            <div class="modal-info-main"></div>
+            <div class="modal-info-link-title">
+              Link
+            </div>
+            <div class="modal-info-link-list">
+
+            </div>
           </div>
           <div class="modal-column modal-column-works">
             <div class="modal-work modal-work1">

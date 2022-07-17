@@ -249,14 +249,15 @@ ul .header-button img{
 } */
 
 ul .header-button:hover{
-	font-weight: bold;
+	font-weight: bolder;
 	text-decoration: underline;
 }
 
 body{
 	margin: 0vw;
   /*遠藤↓*/
-  font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  font-family: YuMincho, "游明朝", "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  font-weight: 300;
 	/* font-family: "游ゴシック体", YuGothic, "Noto Sans JP", sans-serif; */
 	word-break : break-all;
 }
@@ -393,7 +394,7 @@ body{
 
 .element #statement{
 	color: black;
-	font-size: 14px;
+	font-size: 15px;
 	letter-spacing: 0.15em;
 	line-height: 1.7em;
 	text-align: justify;
@@ -403,7 +404,7 @@ body{
 
 .element #sign{
 	color: black;
-	font-size: 12px;
+	font-size: 13px;
 	letter-spacing: 0.15em;
 	line-height: 1.7em;
 	text-align: right;
@@ -414,7 +415,7 @@ body{
 .element #info-in-about{
 	color: black;
 	font-size: 15px;
-	font-weight: normal;
+	font-weight: 300;
 	letter-spacing: 0.15em;
 	line-height: 1.7em;
 	text-align: justify;
@@ -427,8 +428,8 @@ body{
 
 .element #info-in-about .small{
 	color: black;
-	font-size: 12px;
-	font-weight:normal;
+	font-size: 13px;
+	font-weight:300;
 	letter-spacing: 0.15em;
 	line-height: 1.8em;
 	text-align: justify;
@@ -439,8 +440,8 @@ body{
 
 .element #info-in-about .small-indent{
 	color: black;
-	font-size: 12px;
-	font-weight:normal;
+	font-size: 13px;
+	font-weight:300;
 	letter-spacing: 0.15em;
 	line-height: 1.8em;
 	text-align: justify;
@@ -568,7 +569,7 @@ backdrop-filter: blur(30px);
 
 .access-wrapper #map #place-name{
 	font-size: 3.75vw;
-	font-weight: bold;
+	font-weight: bolder;
 	margin: 2.667vw 0vw;
 }
 
@@ -603,6 +604,7 @@ backdrop-filter: blur(30px);
 .artist-list-base{
 	width: 47%;
 	display: flex;
+  margin-right: 1.5%;
 	margin-bottom: 1.5rem;
 }
 .artist-list-button{
@@ -619,7 +621,9 @@ backdrop-filter: blur(30px);
   box-shadow: 5px 10px 40px rgba(20, 19, 28, 0.35);
 }
 .artist-list-info{
-	width: 90%;
+	/* width: 90%; */
+  /* background-color: red; */
+
 }
 
 .modal-background{
@@ -663,10 +667,27 @@ backdrop-filter: blur(30px);
 .modal-column-container{
 	display: flex;
 	flex-wrap: wrap;
+  font-size: 13px;
+  line-height: 19px;
 }
 .modal-column{
 	margin-top: 2rem;
 	width: 100%;
+}
+.modal-info-link-title{
+  margin-top: 2.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: bolder;
+  font-size: 18px;
+}
+.modal-info-link-list button{
+  color: #314FEB;
+  background-color: none;
+  border: none;
+  outline: none;
+  padding: 0;
+  cursor: pointer;
+  /* appearance: none; */
 }
 .modal-column-works{
 	/* margin-right: 1.5rem; */
@@ -717,7 +738,7 @@ footer div #contact{
 }
 
 footer div #contact_title{
-  font-weight:bold;
+  font-weight:bolder;
 }
 
 footer div #contact_mail{
