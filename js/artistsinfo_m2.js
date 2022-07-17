@@ -14,7 +14,14 @@ const _m2data = [
             work2_caption: "hogehoge",
             work3_img: "./images/artistsinfo/m2/imamiya/nagata.jpg",
             work3_caption: "hogehoge",
-            info: "hogehogheoge"
+            info: `hogehogheoge
+            受賞歴
+            2019 aaaa
+            展示歴
+            jgpejgpe 2021
+            助成金
+            hoghoge
+            `
         }
     },
     {
