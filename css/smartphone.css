@@ -273,7 +273,7 @@ body{
 	height: 100vh;
 }
 
-#researve-button{
+#reserve-button{
 	position: fixed;
 	right: 2.7%;
 	bottom: 10%;
@@ -596,20 +596,27 @@ backdrop-filter: blur(30px);
 .artists-list{
 	display: flex;
 	flex-wrap: wrap;
+  justify-content: space-between;
 
 	line-height: 1.2rem;
 }
 .artist-list-base{
-	width: 50%;
+	width: 47%;
 	display: flex;
 	margin-bottom: 1.5rem;
 }
+.artist-list-button{
+  width: 100%;
+  /* background-color: red; */
+}
 .artist-list-thumbnail{
-	width: 92%;
+  width: 100%;
 }
 .artist-list-thumbnail img{
-	width: 100%;
+  width: 100%;
 	border-radius: 0.5rem;
+  /* border-radius: 1rem; */
+  box-shadow: 5px 10px 40px rgba(20, 19, 28, 0.35);
 }
 .artist-list-info{
 	width: 90%;

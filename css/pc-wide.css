@@ -275,7 +275,7 @@ body {
   width: 100vw;
   height: 100vh;
 }
-#researve-button{
+#reserve-button{
 	position: fixed;
 	right: 3.5%;
 	bottom: 10%;
@@ -575,230 +575,6 @@ body {
   backdrop-filter: blur(30px);
 }
 
-/*モーダル*/
-#modals-wrapper {
-  width: 100vw;
-  height: 200vh;
-  margin: 0;
-  padding: 0;
-  z-index: 8;
-  position: fixed;
-  top: 0px;
-  background: #00000088;
-  max-height: 100vh;
-  overflow: auto;
-}
-
-#modals-wrapper #modals-bg {
-  width: 100vw;
-  height: 100vh;
-  background: #00000000;
-  position: fixed;
-}
-
-#modals-wrapper .artist-modal {
-  width: 666px;
-  padding: 15px 40px;
-  background: #FFF;
-  border-radius: 6px;
-  margin-top: 90px;
-  margin-bottom: 90px;
-  margin-left: calc(50vw - 500px + 126px);
-  position: absolute;
-  z-index: 9;
-}
-
-#modals-wrapper .artist-modal>* {
-  padding: 10px 0vw;
-}
-
-.first-column {
-  height: 33.33px;
-}
-
-.first-column .back-button {
-  width: 33.33px;
-  height: 33.33px;
-  display: inline-block;
-  float: right;
-}
-
-.close-under {
-  text-decoration: underline;
-  margin: auto;
-  text-align: center;
-  font-size: 12pt;
-  /*position: absolute;
-	right: 0;
-	left: 0;
-	bottom: 2vw;*/
-}
-
-.modal-lab {
-  font-size: 10pt;
-  display: inline-block;
-  float: left;
-}
-
-.modal-nameJP {
-  font-size: 16pt;
-  font-weight:bolder;
-}
-
-.modal-nameEN {
-  font-size: 12pt;
-  font-weight: bolder;
-}
-
-.work {
-  width: 50%;
-  margin: 0 0 0 auto;
-}
-
-.work-photo {
-  display: block;
-  width: 310px;
-  margin: 0 0 0 auto;
-}
-
-.work-title {
-  font-size: 10pt;
-  margin: 0.5em 0vw;
-  text-align: right;
-  ;
-}
-
-.footer-column {
-  display: inline-block;
-  position: absolute;
-  top: 138px;
-  width: 42%;
-}
-
-.footer-column p {
-  font-size: 10pt;
-  margin: 0;
-}
-
-.footer-column .link {
-  font-size: 10pt;
-  padding-top: 30px;
-  text-decoration: underline;
-}
-
-/*出展者情報*/
-.element .grades {
-  margin: 43.33px 150px 26.67px 150px;
-  padding: 0vw 0vw 0vw 0vw;
-  overflow: auto;
-}
-
-/*
-.element .grades h2{
-	font-size: 1.3vw;
-	color: black;
-}*/
-.element .grades .section-title-mini {
-  height: 22px;
-  margin: 13.33px 0vw;
-}
-
-.element .grades .section-description {
-  font-size: 12pt;
-  letter-spacing: 0.15em;
-  line-height: 1.7em;
-  text-align: justify;
-  font-feature-settings: "palt";
-  margin: 13.33px 0vw;
-}
-
-.artist-wrapper {
-  display: flex;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  display: flex;
-  float: left;
-  width: 50%;
-  height: 2vw;
-  min-height: 150px;
-  margin: 1.6vw 0vw;
-}
-
-.artist-wrapper .sumbnail {
-  display: inline-block;
-  width: 55%;
-  margin: 1.5vw 0vw;
-  float: left;
-}
-
-.artist-wrapper .sumbnail img {
-  width: 100%;
-}
-
-.artist-wrapper .infoText {
-  width: 45%;
-  margin: 10px 0vw;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  flex-flow: column;
-}
-
-.infoText * {
-  vertical-align: top;
-  margin: 0vw;
-}
-
-.infoText .name {
-  padding: 15px 0vw 4.5px 12px;
-}
-
-.infoText .name .nameJP {
-  font-size: 14pt;
-  font-weight: bolder;
-}
-
-.infoText .name .nameEN {
-  font-size: 10pt;
-  font-weight: bolder;
-}
-
-.infoText .lab {
-  font-size: 10pt;
-  padding: 0vw 0vw 0vw 12px;
-  color: #787878;
-}
-
-.infoText .modalButton {
-  font-size: 10pt;
-  padding: 0vw 0vw 4.5px 12px;
-  text-decoration: underline;
-  color: #787878;
-}
-
-/* event */
-
-.access-wrapper{
-  padding-bottom: 60px;
-}
-
-.zuizikoukai {
-  /* width:800px; */
-  margin: 40px 120px;
-}
-
-.web-exhibition-title {
-  padding: 20px 0px;
-  font-size: 20pt;
-}
-
-.web-exhibition-image {
-  width: 100%;
-}
 
 
 /* Artists */
@@ -814,18 +590,24 @@ body {
 .artists-list{
 	display: flex;
 	flex-wrap: wrap;
+  justify-content: flex-start;
 }
 .artist-list-base{
-	width: 50%;
+	width: 31.5%;
 	display: flex;
 	margin-bottom: 1.5rem;
 }
+.artist-list-button{
+  width: 80%;
+  /* background-color: red; */
+}
 .artist-list-thumbnail{
-	width: 80%;
+	/* width: 80%; */
 }
 .artist-list-thumbnail img{
-	width: 100%;
+  width: 100%;
   border-radius: 1rem;
+  box-shadow: 5px 10px 40px rgba(20, 19, 28, 0.35);
 }
 .artist-list-info{
 	width: 50%;
@@ -860,6 +642,9 @@ body {
 }
 .modal-top{
 	height:2rem;
+}
+.modal-name{
+  /* background-color: red; */
 }
 .modal-close{
 	width: auto;

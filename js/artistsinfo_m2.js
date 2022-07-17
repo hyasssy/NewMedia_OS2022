@@ -32,12 +32,12 @@ const _m2data = [
         data: {
             name_ja: "桒原 幹治",
             name_en: "Kanji Kuwahara",
-            work1_img: "./images/artistsinfo/m2/thumbnails/nagata.jpg",
+            work1_img: "./images/artistsinfo/m2/kuwahara/1.jpg",
             work1_caption: "hogehoge",
-            work2_img: "./images/artistsinfo/m2/thumbnails/nagata.jpg",
+            work2_img: "./images/artistsinfo/m2/kuwahara/2.jpg",
             work2_caption: "hogehoge",
-            work3_img: "./images/artistsinfo/m2/thumbnails/nagata.jpg",
-            work3_caption: "hogehoge",
+            work3_img: "",
+            work3_caption: "",
             info: "hogehogheoge"
         }
     },
@@ -49,11 +49,11 @@ const _m2data = [
         data: {
             name_ja: "佐藤 瞭太郎",
             name_en: "Ryotaro Sato",
-            work1_img: "./images/artistsinfo/m2/thumbnails/nagata.jpg",
+            work1_img: "./images/artistsinfo/m2/sato/1.jpg",
             work1_caption: "hogehoge",
-            work2_img: "./images/artistsinfo/m2/thumbnails/nagata.jpg",
+            work2_img: "./images/artistsinfo/m2/sato/2.jpg",
             work2_caption: "hogehoge",
-            work3_img: "./images/artistsinfo/m2/thumbnails/nagata.jpg",
+            work3_img: "./images/artistsinfo/m2/sato/3.jpg",
             work3_caption: "hogehoge",
             info: "hogehogheoge"
         }
@@ -66,11 +66,11 @@ const _m2data = [
         data: {
             name_ja: "田中くるみ",
             name_en: "Ryotaro Sato",
-            work1_img: "./images/artistsinfo/m2/thumbnails/nagata.jpg",
+            work1_img: "./images/artistsinfo/m2/tanaka/1.jpg",
             work1_caption: "hogehoge",
-            work2_img: "./images/artistsinfo/m2/thumbnails/nagata.jpg",
+            work2_img: "./images/artistsinfo/m2/tanaka/2.jpg",
             work2_caption: "hogehoge",
-            work3_img: "./images/artistsinfo/m2/thumbnails/nagata.jpg",
+            work3_img: "./images/artistsinfo/m2/tanaka/3.jpg",
             work3_caption: "hogehoge",
             info: "hogehogheoge"
         }
