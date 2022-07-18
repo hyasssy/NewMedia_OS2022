@@ -90,16 +90,16 @@ function showartistmodal(artistdata) {
     // console.log(artistdata.links);
     for (var i = 0; i < artistdata.links.length; i++){
         var div = document.createElement("button");
-        var url = artistdata.links[i].url;
-        $(div).on('click', function () {
-            window.open(url, '_blank');
-            return false;
-        });
+        div.data = i;
         div.textContent = artistdata.links[i].text;
         var br = document.createElement("br");
         links.appendChild(div);
         links.appendChild(br);
-
+        $(div).on('click', function () { // イベントの登録はちょっとこういう登録の仕方をしないと、参照が変になる。本質不明。
+            var url = artistdata.links[this.data].url;
+            window.open(url, '_blank');
+            return false;
+        });
     }
 
     targetelement.appendChild(clone);
