@@ -32,8 +32,12 @@ const _m2data = [
 `,
             links: [
                 {
-                    text: "Portfolio",
-                    url: "https://ariha12245.wixsite.com/portforio"
+                    text: "Whitestone Gallery 紹介ページ",
+                    url: "https://onl.bz/wmQs8NQ"
+                },
+                {
+                    text: "Instagram",
+                    url: "https://onl.bz/1XMNQB7"
                 },
                 {
                     text: "Twitter",
