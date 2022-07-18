@@ -11,23 +11,18 @@ const _m1data = [
             work2_img: "./images/artistsinfo/m1/ando/2.jpg",
             work2_caption: "《鶏皮飼育日記》（2019）",
             work3_img: "./images/artistsinfo/m1/ando/3.jpg",
-            work3_caption: "《水槽に入れた鶏皮》（2022）",
+            work3_caption: "《鶏皮飼育者の手触り》（2022）",
             info: `プロフィール
             武蔵野美術大学造形学部映像学科卒業。
             触る事で対象についての知見を得、その記録の集積を元に制作を行う。
 
             展示歴
-            2022「令和三年度 武蔵野美術大学 卒業・修了制作展」（武蔵野美術大学）
-            `,
+            2022「令和三年度 武蔵野美術大学 卒業・修了制作展」（武蔵野美術大学）`,
             links: [
-                {
-                    text: "Portfolio",
-                    url: "https://hyasssy.tokyo/"
-                },
-                {
-                    text: "Twitter: @hyasssy",
-                    url: "https://twitter.com/hyasssy"
-                }
+              //  {
+                    //text: "Twitter: @izumi_haruna9",
+                    //url: "https://twitter.com/izumi_haruna9"
+                //}
             ]
         }
     },
@@ -62,12 +57,8 @@ const _m1data = [
             `,
             links: [
                 {
-                    text: "Portfolio",
-                    url: "https://hyasssy.tokyo/"
-                },
-                {
-                    text: "Twitter: @hyasssy",
-                    url: "https://twitter.com/hyasssy"
+                    text: "Twitter: @izumi_haruna9",
+                    url: "https://twitter.com/izumi_haruna9"
                 }
             ]
         }
@@ -95,14 +86,18 @@ const _m1data = [
             `,
             links: [
                 {
-                    text: "Portfolio",
-                    url: "https://hyasssy.tokyo/"
+                    text: "HP",
+                    url: "https://lit.link/KotoneIto"
                 },
                 {
-                    text: "Twitter: @hyasssy",
-                    url: "https://twitter.com/hyasssy"
+                    text: "Instagram: @k0t0ne0530",
+                    url: "https://www.instagram.com/k0t0ne0530/"
                 }
-            ]
+                //{
+                    //text: "Mail: kotoneito530@gmail.com",
+                    //url: "kotoneito530@gmail.com"
+                //},
+                ]
         }
     },
     {
@@ -133,12 +128,12 @@ const _m1data = [
             `,
             links: [
                 {
-                    text: "Portfolio",
-                    url: "https://hyasssy.tokyo/"
+                    text: "Twitter: @mi_mi_mi_mi65",
+                    url: "https://twitter.com/mi_mi_mi_mi65"
                 },
                 {
-                    text: "Twitter: @hyasssy",
-                    url: "https://twitter.com/hyasssy"
+                    text: "instagram: @michibumiito",
+                    url: "https://www.instagram.com/michibumiito/"
                 }
             ]
         }
@@ -172,12 +167,12 @@ const _m1data = [
             `,
             links: [
                 {
-                    text: "Portfolio",
-                    url: "https://hyasssy.tokyo/"
+                    text: "Twitter: @tomoyukieguchi",
+                    url: "https://twitter.com/tomoyukieguchi"
                 },
                 {
-                    text: "Twitter: @hyasssy",
-                    url: "https://twitter.com/hyasssy"
+                    text: "Twitter: @f7dob6",
+                    url: "https://www.instagram.com/f7d0b6/"
                 }
             ]
         }
@@ -218,12 +213,12 @@ const _m1data = [
             `,
             links: [
                 {
-                    text: "Portfolio",
-                    url: "https://hyasssy.tokyo/"
+                    text: "Twitter: @taiyooo1130",
+                    url: "https://twitter.com/taiyooo1130"
                 },
                 {
-                    text: "Twitter: @hyasssy",
-                    url: "https://twitter.com/hyasssy"
+                    text: "Instagram: @taiyooo1130",
+                    url: "https://www.instagram.com/taiyooo1130/"
                 }
             ]
         }
@@ -256,12 +251,12 @@ const _m1data = [
             `,
             links: [
                 {
-                    text: "Portfolio",
-                    url: "https://hyasssy.tokyo/"
+                    text: "Teitter: @kadojr91",
+                    url: "https://twitter.com/kadojr91"
                 },
                 {
-                    text: "Twitter: @hyasssy",
-                    url: "https://twitter.com/hyasssy"
+                    text: "Instagram: @kadojr91",
+                    url: "https://www.instagram.com/kadojr91/"
                 }
             ]
         }
@@ -289,12 +284,12 @@ const _m1data = [
             `,
             links: [
                 {
-                    text: "Portfolio",
-                    url: "https://hyasssy.tokyo/"
+                    text: "Twitter: @aulcb",
+                    url: "https://twitter.com/aulcb/"
                 },
                 {
-                    text: "Twitter: @hyasssy",
-                    url: "https://twitter.com/hyasssy"
+                    text: "Twitter: @kore_works",
+                    url: "https://www.instagram.com/kore_works/"
                 }
             ]
         }
@@ -318,13 +313,9 @@ const _m1data = [
             `,
             links: [
                 {
-                    text: "Portfolio",
-                    url: "https://hyasssy.tokyo/"
+                    text: "Instagram: @hummingguy",
+                    url: "https://www.instagram.com/hummingguy"
                 },
-                {
-                    text: "Twitter: @hyasssy",
-                    url: "https://twitter.com/hyasssy"
-                }
             ]
         }
     },
@@ -359,12 +350,16 @@ const _m1data = [
             `,
             links: [
                 {
-                    text: "Portfolio",
-                    url: "https://hyasssy.tokyo/"
+                    text: "HP",
+                    url: "https://hyasssy.https://site-2251842-4277-9677.mystrikingly.com/"
                 },
                 {
-                    text: "Twitter: @hyasssy",
-                    url: "https://twitter.com/hyasssy"
+                    text: "Twitter: sota_suzu",
+                    url: "https://twitter.com/sota_suzu"
+                },
+                {
+                    text: "Twitter: @sota.s",
+                    url: "https://www.instagram.com/sota.s/"
                 }
             ]
         }
@@ -398,13 +393,9 @@ const _m1data = [
             `,
             links: [
                 {
-                    text: "Portfolio",
-                    url: "https://hyasssy.tokyo/"
+                    text: "HP",
+                    url: "www.chaatenn.com"
                 },
-                {
-                    text: "Twitter: @hyasssy",
-                    url: "https://twitter.com/hyasssy"
-                }
             ]
         }
     },
@@ -448,12 +439,12 @@ const _m1data = [
             `,
             links: [
                 {
-                    text: "Portfolio",
-                    url: "https://hyasssy.tokyo/"
+                    text: "Twitter: @y__homm",
+                    url: "https://twitter.com/y__homm"
                 },
                 {
-                    text: "Twitter: @hyasssy",
-                    url: "https://twitter.com/hyasssy"
+                    text: "Instagram: @hommynm",
+                    url: "https://www.instagram.com/HommyNM/"
                 }
             ]
         }
