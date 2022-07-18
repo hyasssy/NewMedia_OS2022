@@ -70,11 +70,11 @@ const _m1data = [
         data: {
             name_ja: "伊藤 琴音",
             name_en: "Kotone Ito",
-            work1_img: "./images/artistsinfo/m1/itok/1.jpg",
+            work1_img: "./images/artistsinfo/m1/itok/3.jpg",
             work1_caption: "《流水》（2022）",
             work2_img: "./images/artistsinfo/m1/itok/2.jpg",
             work2_caption: "《あわいをきく》（2021）",
-            work3_img: "./images/artistsinfo/m1/itok/3.jpg",
+            work3_img: "./images/artistsinfo/m1/itok/1.jpg",
             work3_caption: "《Selection》（2020）",
             info: `プロフィール
             1999年東京都生まれ。
