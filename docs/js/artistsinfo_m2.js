@@ -33,11 +33,11 @@ const _m2data = [
             links: [
                 {
                     text: "Whitestone Gallery 紹介ページ",
-                    url: "https://onl.bz/wmQs8NQ"
+                    url: "https://www.whitestone-gallery.com/ja/blogs/online-exhibitions/young-artist"
                 },
                 {
                     text: "Instagram",
-                    url: "https://onl.bz/1XMNQB7"
+                    url: "https://www.instagram.com/ariha_imamiya/"
                 },
                 {
                     text: "Twitter",
@@ -151,7 +151,7 @@ const _m2data = [
             links: [
                 {
                     text: "Portfolio",
-                    url: "ryotarosato.com"
+                    url: "http://ryotarosato.com/"
                 },
                 {
                     text: "Twitter: @tansansui62560",
