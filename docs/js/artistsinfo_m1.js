@@ -19,10 +19,10 @@ const _m1data = [
             展示歴
             2022「令和三年度 武蔵野美術大学 卒業・修了制作展」（武蔵野美術大学）`,
             links: [
-              //  {
-                    //text: "Twitter: @izumi_haruna9",
-                    //url: "https://twitter.com/izumi_haruna9"
-                //}
+                {
+                    text: "《鶏皮飼育日記》",
+                    url: "https://note.com/nyun"
+                }
             ]
         }
     },
