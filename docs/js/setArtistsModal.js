@@ -95,11 +95,15 @@ function showartistmodal(artistdata) {
         var br = document.createElement("br");
         links.appendChild(div);
         links.appendChild(br);
-        $(div).on('click', function () { // イベントの登録はちょっとこういう登録の仕方をしないと、参照が変になる。本質不明。
+        $(div).on('click', function () { // イベントの登録はちょっとこういう登録の仕方(this.data)をしないと、参照が変になる。本質不明。
             var url = artistdata.links[this.data].url;
             window.open(url, '_blank');
             return false;
         });
+    }
+    if (artistdata.links.length === 0) {
+        var linktext = clone.querySelector(".modal-info-link-title");
+        linktext.textContent = "";
     }
 
     targetelement.appendChild(clone);
