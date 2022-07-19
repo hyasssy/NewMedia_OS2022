@@ -231,7 +231,7 @@ const _m1data = [
             name_ja: "倉知 朋之介",
             name_en: "Tomonosuke Kurachi",
             work1_img: "./images/artistsinfo/m1/kurachi/1.jpg",
-            work1_caption: "《hogehoALIEN BOOK》（2022）",
+            work1_caption: "《Neanderthal Book》（2022）",
             work2_img: "./images/artistsinfo/m1/kurachi/2.jpg",
             work2_caption: "《ムシ図鑑》（2022）",
             work3_img: "./images/artistsinfo/m1/kurachi/3.jpg",
@@ -358,7 +358,7 @@ const _m1data = [
                     url: "https://twitter.com/sota_suzu"
                 },
                 {
-                    text: "Twitter: @sota.s",
+                    text: "Instagram: @sota.s",
                     url: "https://www.instagram.com/sota.s/"
                 }
             ]
